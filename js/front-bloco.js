@@ -25,7 +25,7 @@ function exibirVoto() {
     })()
     document.querySelectorAll('.botao-votar').forEach((botao) => {
         botao.disabled = true;
-        botao.style.display = "block"
+        botao.style.display = "none"
     })
 }
 
